@@ -1,3 +1,13 @@
+# Project Configuration
+
+Steps to run to test the app:
+
+ 1. Install the dependencies, both, in the root folder and in the `backend` folder.
+ 2. Run the ExpressJS server located in the `backend` folder. But, firt configure a database in [mlab](https://mlab.com/) with a user by granting read/write permissions, then create a collection with a document with this structure `{"text": "Some todo", "isCompleted": false}`. Command to run the server: `node server`.
+ 2. Run the Angular 2 Application: `ng serve`.
+
+Comments: `@JohnLrnr`
+
 # MeanTodosApp
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
